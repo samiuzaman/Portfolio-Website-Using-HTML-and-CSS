@@ -1,0 +1,1085 @@
+/* Reset Code Start */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Reset Code End */
+/* Header Section Code Start */
+body {
+  background-color: #1e1e1e;
+}
+header {
+  width: 100%;
+  height: fit-content;
+}
+header nav {
+  margin-top: 50px;
+  padding: 10px 15px;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+  /* padding: 50px; */
+  box-shadow: 4px 5px 10px 2px;
+}
+header nav .nav-logo h3 {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #fd6f00;
+}
+header nav .nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .nav-menu ul {
+  color: white;
+  display: flex;
+  margin-right: 20px;
+}
+header nav .nav-menu ul li {
+  list-style: none;
+  margin-right: 20px;
+  font-family: Rubik;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 24.89px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+header nav .nav-menu ul li:hover {
+  color: #fd6f00;
+}
+
+header nav .nav-menu .nav-btn {
+  background-color: #fd6f00;
+  color: white;
+  width: 188px;
+  height: 52px;
+  top: 7px;
+  left: 545px;
+  gap: 0px;
+  opacity: 0px;
+}
+/* Header Section Code End */
+
+/* Banner Section Code Start */
+#banner-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.banner-details {
+  width: 40%;
+}
+.banner-details h1 {
+  color: white;
+  font-family: Rubik;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: justify;
+}
+.banner-details h3 {
+  font-family: Rubik;
+  margin-top: 15px;
+  color: white;
+  font-weight: 300;
+  font-size: 24px;
+}
+.banner-details p {
+  font-family: Rubik;
+  text-align: justify;
+  margin-top: 15px;
+  color: gray;
+  font-size: 15px;
+}
+.banner-details .banner-btn {
+  display: inline-block;
+  background-color: #333333;
+  border: 2px solid #6b6b6b;
+  border-radius: 50px;
+  padding: 5px;
+  margin-top: 20px;
+}
+.banner-details .banner-btn :nth-child(1) {
+  background-color: #fd6f00;
+  color: white;
+  border-radius: 60px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 20px;
+  font-family: Rubik;
+  font-weight: 400;
+}
+.banner-details .banner-btn :nth-child(2) {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin: 0 20px;
+  font-family: Rubik;
+  font-weight: 400;
+}
+#banner-container .banner-images img {
+  width: 400px;
+  height: 400px;
+  top: 177px;
+  left: 759px;
+  border: 2px solid #fe8132;
+  border-radius: 50%;
+}
+
+.banner-social-icon {
+  margin-top: 20px;
+}
+.banner-social-icon a {
+  text-decoration: none;
+  color: #8e8e8e;
+  margin-right: 10px;
+}
+.banner-social-icon a i {
+  background-color: #1e1e1e;
+  font-size: 25px;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+#heading-line h3 {
+  width: 99.9%;
+  height: 100px;
+  align-content: center;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 32px;
+  transform: rotate(-3deg);
+  
+}
+
+#Banner-About-section {
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  font-family: Rubik;
+}
+#Banner-About-section .about {
+  margin-right: 100px;
+  width: 50%;
+  padding-right: 10%;
+}
+#Banner-About-section .about h2 {
+  color: #ffffff;
+  font-family: Rubik;
+  font-weight: 800;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+#Banner-About-section div p {
+  color: gray;
+  font-family: Rubik;
+}
+#Benner-Rating-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: end;
+}
+#Benner-Rating-section h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 47px;
+}
+#Benner-Rating-section h4 {
+  color: white;
+  font-weight: 400;
+}
+.Five-star-rating {
+  color: #e17836;
+  margin-bottom: 10px;
+}
+/* Banner Section Code Ends */
+/* Experience Section Code Start */
+#experience-container {
+  background: linear-gradient(
+    270.16deg,
+    rgba(255, 177, 71, 0.1) 5.74%,
+    rgba(255, 108, 99, 0.1) 50.64%,
+    rgba(184, 106, 223, 0.1) 92.05%
+  );
+
+  color: #fff;
+  margin-top: 100px;
+}
+.experience-parent-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 150px 0;
+  margin-right: 200px;
+}
+.experience-title {
+  width: 35%;
+  margin-left: 150px;
+}
+.experience-title h6 {
+  font-family: Rubik;
+  font-size: 15px;
+  font-weight: 400;
+}
+.experience-title h1 {
+  font-family: Rubik;
+  font-weight: 700;
+  font-size: 28px;
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+.experience-title p {
+  font-family: Rubik;
+  font-size: 15px;
+  text-align: justify;
+  line-height: 23px;
+}
+.experience-details {
+  width: 38%;
+  margin-left: 30px;
+}
+.experience-details .child-div {
+  margin-right: 30;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.experience-year,
+.experience-title-h6 {
+  padding-top: 30px;
+  font-size: 16px;
+  font-family: Rubik;
+  font-weight: 400;
+}
+.experience-details .parent-div > h2 {
+  border-bottom: 2px solid #5d554f;
+  padding: 15px 0;
+  font-family: Rubik;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+/* Experience Section Code End */
+
+/* Awards Section Code Start */
+#awards-container {
+  width: 65%;
+  margin: 100px auto;
+}
+.award-title {
+  width: 50%;
+  margin: 0 auto;
+}
+.awards-parent-div .awards-title h2 {
+  text-align: center;
+  font-family: Rubik;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 1.5%;
+  color: #ffffff;
+}
+.award-title {
+  text-align: center;
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3%;
+  color: gray;
+}
+
+.mobile-app-div,
+.website-div {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  margin: 30px;
+}
+.app-child-div,
+.web-child-div {
+  width: 75%;
+  padding: 40px 100px 40px 20px;
+}
+.mobile-app-div h3,
+.website-div h3 {
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.mobile-app-div p,
+.website-div p {
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 15px;
+}
+.mobile-app-div h4,
+.website-div h4 {
+  padding-top: 28px;
+  padding-right: 17px;
+  font-family: Rubik;
+  font-weight: 400;
+}
+/* Awards Section Code End */
+
+/* Portfolio Section Code Start */
+#portfolio-container {
+  padding: 100px 0;
+  width: 80%;
+  margin: 0 auto;
+}
+.portfolio-title {
+  width: 35%;
+  margin: 0 auto;
+  text-align: center;
+}
+.portfolio-title h2 {
+  font-family: Rubik;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 47.4px;
+  letter-spacing: 1.5%;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.portfolio-title p {
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.3px;
+  letter-spacing: 3%;
+  color: #ffffff80;
+  margin-bottom: 15px;
+}
+.project-menu ul {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.project-menu ul li {
+  list-style: none;
+  background-color: black;
+  padding: 8px 15px;
+  margin-right: 10px;
+  border: 0.4px solid black;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 3%;
+  text-align: center;
+  box-shadow: 4px 4px 8px black;
+}
+.project-menu ul li:nth-child(2) {
+  background-color: #fd6f00;
+}
+.project-menu ul li:hover {
+  background-color: #333333;
+}
+.portfolio-project {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  width: 75%;
+  margin: 0 auto;
+}
+.portfolio-project-images img {
+  width: 355px;
+  height: 270px;
+}
+.portfolio-project h5 {
+  font-family: Rubik;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  padding: 5px 10px 10px 0;
+}
+.portfolio-project h2 {
+  font-family: Rubik;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+.portfolio-project p {
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21.33px;
+  letter-spacing: 3%;
+  color: #ffffff80;
+}
+.project-details-one {
+  margin-left: 50px;
+  padding-right: 60px;
+}
+.project-details-two {
+  margin-right: 50px;
+  padding-right: 60px;
+}
+/* Portfolio Section Code End */
+
+/* Contact Section Code Start */
+#contact-container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.contact-title h4 {
+  text-align: center;
+  font-family: Rubik;
+  font-weight: 600;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 24px;
+  color: #ffffff;
+}
+.contact-title h2 {
+  text-align: center;
+  font-family: Rubik;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.contact-sectioin h2 {
+  font-family: Rubik;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+}
+.contact-sectioin {
+  width: 80%;
+  margin: 0 auto;
+  padding: 60px 100px;
+  background-color: #fd6f001a;
+}
+.contact-sectioin input {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #ffffff;
+  /* width: 45%; */
+  margin-right: 30px;
+  color: white;
+  font-size: 15px;
+}
+.contact-sectioin input:focus {
+  border: none;
+  color: white;
+}
+.input-name-email {
+  width: 45%;
+  padding: 28px 0;
+}
+.input-messege {
+  width: 95%;
+  padding: 42px 0;
+  margin-top: 5px;
+}
+input[type="file"] {
+  display: none;
+}
+.attach-file-label {
+  display: inline-block;
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.contact-sectioin input::placeholder {
+  color: white;
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.contact-sectioin input:focus {
+  outline-color: #0d99ff;
+}
+.contact-btn {
+  background-color: #fd6f00;
+  color: #ffffff;
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 15px 30px;
+  margin-top: 30px;
+  border: none;
+}
+/* Contact Section Code End */
+
+/* Footer Section Code Start */
+#footer-container {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #000000;
+  padding-top: 100px;
+}
+.footer-logo {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.footer-logo h3 {
+  color: #fd6f00;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 96px;
+  letter-spacing: 3%;
+}
+.footer-menu-bar {
+  width: 50%;
+  margin: 0 auto;
+}
+.footer-menu-bar ul {
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-menu-bar ul li {
+  list-style: none;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 31.5px;
+  letter-spacing: 3%;
+}
+.footer-social-media {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 30px;
+  padding-bottom: 50px;
+}
+.footer-social-media a i {
+  color: #ffffff;
+  margin-right: 20px;
+}
+.copyright-section {
+  color: white;
+  height: 80px;
+  background-color: #121212;
+}
+.copyright-section p {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 21px;
+  letter-spacing: 3%;
+  text-align: center;
+  padding-top: 27px;
+}
+.copyright-section p span {
+  color: #fd6f00;
+  font-weight: 700;
+}
+
+/* Footer Section Code Start */
+
+/* Responsive Design Code Section  */
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  /* Navbar Code Start */
+  header nav {
+    display: block;
+  }
+  header nav .nav-menu {
+    display: block;
+    text-align: center;
+  }
+
+  header nav .nav-logo h3 {
+    text-align: center;
+  }
+  header nav .nav-menu ul {
+    display: block;
+    width: 100%;
+  }
+  header nav .nav-menu ul li {
+    text-align: center;
+  }
+  /* Navbar Code End */
+  /* Banner section Code Start */
+  #banner-container {
+    display: block;
+  }
+  .banner-details {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .banner-images {
+    width: 70%;
+    margin: 0;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  #banner-container .banner-images img {
+    width: 300px;
+    height: 300px;
+    top: 177px;
+    left: 759px;
+    border: 2px solid #fe8132;
+    border-radius: 50%;
+  }
+
+  #heading-line {
+    display: none;
+  }
+
+  .banner-social-icon {
+    text-align: left;
+  }
+
+  #Banner-About-section {
+    display: block;
+  }
+  #Banner-About-section .about {
+    width: 100%;
+    margin: 40px 15px;
+    text-align: center;
+  }
+
+  #Benner-Rating-section {
+    text-align: center;
+  }
+  /* Banner section Code End */
+  /* Experience Section Code Start  */
+  #experience-container {
+    width: 100%;
+  }
+  .experience-parent-div {
+    display: block;
+    width: 100%;
+  }
+
+  .experience-title {
+    width: 65%;
+    text-align: center;
+    margin-left: 0;
+    margin: 0 auto;
+  }
+  .experience-details {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  /* Experience Section Code Start  */
+  /* Awards Section Code Start */
+  #awards-container {
+    width: 75%;
+    margin: 100px auto;
+  }
+  .award-title {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .awards-parent-div .awards-title h2 {
+    text-align: center;
+    font-family: Rubik;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 1.5%;
+    color: #ffffff;
+  }
+
+  .mobile-app-div,
+  .website-div {
+    display: block;
+    width: 100%;
+  }
+  .app-child-div,
+  .web-child-div {
+    margin: 0;
+    padding: 50px 10px;
+    width: 100%;
+  }
+  .mobile-app-div h3,
+  .website-div h3 {
+    text-align: center;
+  }
+  .mobile-app-div p,
+  .website-div p {
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+  }
+  .mobile-app-div h4,
+  .website-div h4 {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  /* Awards Section Code End */
+  /* Portfolio Section Code Start */
+
+  #portfolio-container {
+    padding: 100px 0;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .portfolio-title {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .portfolio-project,
+  .portfolio-project {
+    display: block;
+    padding-top: 100px;
+    width: 100%;
+  }
+  .portfolio-project-images img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .portfolio-project h5 {
+    font-family: Rubik;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    padding: 5px 10px 10px 0;
+  }
+  .portfolio-project h2 {
+    font-size: 30px;
+  }
+  .project-details-one {
+    margin-left: 0px;
+    padding-right: 0px;
+    margin-top: 50px;
+  }
+  .project-details-two {
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+  }
+  .project-menu ul li {
+    width: 150px;
+    padding: 0;
+    font-size: 18px;
+    text-align: center;
+    align-content: center;
+  }
+
+  /* Portfolio Section Code End */
+  /* Contact Section Code Start */
+  #contact-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .contact-sectioin {
+    width: 90%;
+    margin: 0 auto;
+    padding: 100px 80px;
+  }
+  .contact-sectioin input:focus {
+    border: none;
+    color: white;
+  }
+  .input-name-email {
+    width: 100%;
+  }
+  .input-messege {
+    width: 100%;
+  }
+  /* Contact Section Code End */
+  /* Footer Section Code Start */
+#footer-container {
+  width: 100%;
+  margin: 0 auto;
+}
+.footer-menu-bar {
+  width: 80%;
+  margin: 0 auto;
+}
+.footer-menu-bar ul {
+  display: block;
+  text-align: center;
+}
+
+.copyright-section p {
+  text-wrap: wrap;
+}
+.copyright-section p span {
+  font-weight: 400;
+}
+
+/* Footer Section Code Start */
+}
+
+@media screen and (min-width: 700px) and (max-width: 1150px) {
+  /* Navbar Code Start */
+  header nav {
+    display: flex;
+  }
+  header nav .nav-menu {
+    display: flex;
+  }
+  header nav .nav-menu ul {
+    display: block;
+    width: 100%;
+  }
+  header nav .nav-menu ul li {
+    text-align: center;
+  }
+  /* Navbar Code End */
+  /* Banner section Code Start */
+  #Banner-About-section {
+    margin: 0 30px;
+  }
+  #Banner-About-section {
+    margin-top: 100px;
+  }
+  /* Banner section Code Start */
+  #banner-container {
+    display: block;
+  }
+  #banner-container h1, #banner-container p{
+    text-align: center;
+  }
+  .banner-details {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .banner-images {
+    width: 70%;
+    padding: 0;
+    margin: 0;
+   display: grid;
+   justify-items: center;
+    margin-top: 100px;
+  }
+  #banner-container .banner-images img {
+    width: 300px;
+    height: 300px;
+    top: 177px;
+    left: 759px;
+    border: 2px solid #fe8132;
+    border-radius: 50%;
+  }
+
+  #heading-line {
+    display: none;
+  }
+
+  .banner-social-icon {
+    text-align: left;
+  }
+
+  #Banner-About-section {
+    display: block;
+  }
+  #Banner-About-section .about {
+    width: 100%;
+    margin: 40px 15px;
+    text-align: center;
+  }
+
+  #Benner-Rating-section {
+    text-align: center;
+  }
+  /* Banner section Code End */
+  /* Experience Section Code Start  */
+  #experience-container {
+    width: 100%;
+  }
+  .experience-parent-div {
+    display: block;
+    width: 100%;
+  }
+
+  .experience-title {
+    width: 65%;
+    text-align: center;
+    margin-left: 0;
+    margin: 0 auto;
+  }
+  .experience-details {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  /* Experience Section Code Start  */
+  /* Awards Section Code Start */
+  #awards-container {
+    width: 75%;
+    margin: 100px auto;
+  }
+  .award-title {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .awards-parent-div .awards-title h2 {
+    text-align: center;
+    font-family: Rubik;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 1.5%;
+    color: #ffffff;
+  }
+
+  .mobile-app-div,
+  .website-div {
+    display: block;
+    width: 100%;
+  }
+  .app-child-div,
+  .web-child-div {
+    margin: 0;
+    padding: 50px 10px;
+    width: 100%;
+  }
+  .mobile-app-div h3,
+  .website-div h3 {
+    text-align: center;
+  }
+  .mobile-app-div p,
+  .website-div p {
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+  }
+  .mobile-app-div h4,
+  .website-div h4 {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  /* Awards Section Code End */
+  /* Portfolio Section Code Start */
+
+  #portfolio-container {
+    padding: 100px 0;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .portfolio-title {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .portfolio-project,
+  .portfolio-project {
+    display: block;
+    padding-top: 100px;
+    width: 100%;
+    text-align: center;
+  }
+  .portfolio-project-images img {
+    width: 60%;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .portfolio-project h5 {
+    font-family: Rubik;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    padding: 5px 10px 10px 0;
+  }
+  .portfolio-project h2 {
+    font-size: 30px;
+  }
+  .project-details-one {
+    margin-left: 0px;
+    padding-right: 0px;
+    margin-top: 50px;
+  }
+  .project-details-two {
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+  }
+  .project-menu ul li {
+    width: 150px;
+    padding: 0;
+    font-size: 18px;
+    text-align: center;
+    align-content: center;
+  }
+
+  /* Portfolio Section Code End */
+  /* Contact Section Code Start */
+  #contact-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .contact-sectioin {
+    width: 90%;
+    margin: 0 auto;
+    padding: 100px 80px;
+  }
+  .contact-sectioin input:focus {
+    border: none;
+    color: white;
+  }
+  .input-name-email {
+    width: 100%;
+  }
+  .input-messege {
+    width: 100%;
+  }
+  /* Contact Section Code End */
+  /* Footer Section Code Start */
+#footer-container {
+  width: 100%;
+  margin: 0 auto;
+}
+.footer-menu-bar {
+  width: 80%;
+  margin: 0 auto;
+}
+.footer-menu-bar ul {
+  display: block;
+  text-align: center;
+}
+.footer-logo{
+  font-size: 20px;
+}
+
+.copyright-section p {
+  text-wrap: wrap;
+}
+.copyright-section p span {
+  font-weight: 400;
+}
+
+/* Footer Section Code Start */
+}
+
